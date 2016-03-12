@@ -335,7 +335,7 @@ system_sleep() {
 system_down() {
   log "Shutdown system now"
 # Perform a 'clean' powerdown
-  powerdown
+  /usr/local/sbin/powerdown
 }
 
 # Immediate sleep or shutdown
